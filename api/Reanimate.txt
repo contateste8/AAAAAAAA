@@ -72,7 +72,7 @@ Title.TextSize = 20
 
 local Scroll = Instance.new("ScrollingFrame", MainFrame)
 Scroll.Position = UDim2.new(0, 10, 0, 50)
-Scroll.Size = UDim2.new(1, -20, 1, -75)
+Scroll.Size = UDim2.new(1, -20, 1, 0)
 Scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
 Scroll.ScrollBarThickness = 6
 Scroll.BackgroundTransparency = 1
