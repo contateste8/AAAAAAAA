@@ -342,7 +342,7 @@ DancesC = Window:Tab({
 Window:SelectTab(1)
 
 local R6Dances = {
-{Name = "Dia Delícia", ID = 80641587562132},
+{Name = "Dia Delícia", ID = 80641587562132, Speed = 30},
 {Name = "Run Away", ID = 131562546189485},
 {Name = "Boombox Dance", ID = 84471848998012, SoundID = 1839931160},
 {Name = "Cafeteria", ID = 111079857314277},
