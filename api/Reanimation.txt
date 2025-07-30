@@ -710,7 +710,7 @@ StarterGui:SetCore("SendNotification", {
             Text = "Reanimating... Please wait a second.",
             Duration = 2
         })
-    ExecuteReanimation()
+ExecuteReanimation()
 end)
 
 local Title = Instance.new("TextLabel", MainFrame)
@@ -772,6 +772,7 @@ for rigName, assetList in pairs(Rigs) do
             Text = "Reanimating... Please wait a second.",
             Duration = 2
         })
+ExecuteReanimation()
     end)
 end
 
