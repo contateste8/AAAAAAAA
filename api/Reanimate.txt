@@ -720,7 +720,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
 
 local Scroll = Instance.new("ScrollingFrame", MainFrame)
 Scroll.Position = UDim2.new(0, 10, 0, 50)
-Scroll.Size = UDim2.new(1, -20, 1, -60)
+Scroll.Size = UDim2.new(1, -20, 1, -50)
 Scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
 Scroll.ScrollBarThickness = 6
 Scroll.BackgroundTransparency = 1
