@@ -746,9 +746,9 @@ Então, pessoal, aqui está. Mais um episódio de "Acusações sem fundamento e 
     end)
 end
 
-local function UpdateCanvasSize()
-    Scroll.CanvasSize = UDim2.new(0, 0, 0, Layout.AbsoluteContentSize.Y + 20)
-end
-
-Layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(UpdateCanvasSize)
-task.defer(UpdateCanvasSize)
+task.defer(function()
+    Scroll.CanvasSize = UDim2.new(0, 0, 0, Layout.AbsoluteContentSize.Y + 30)
+    Layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+        Scroll.CanvasSize = UDim2.new(0, 0, 0, Layout.AbsoluteContentSize.Y + 30)
+    end)
+end)
