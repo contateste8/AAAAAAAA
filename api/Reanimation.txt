@@ -705,6 +705,11 @@ SkipLink.ZIndex = 2
 
 SkipLink.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
+StarterGui:SetCore("SendNotification", {
+            Title = "Reanimation",
+            Text = "Reanimating... Please wait a second.",
+            Duration = 2
+        })
     ExecuteReanimation()
 end)
 
